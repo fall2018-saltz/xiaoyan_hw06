@@ -11,6 +11,7 @@ readData <- function(states)
     states3 <- states2[-num.row,]
     
     #remove the first for colums
+    states4 <- states3[,-1:-4]
   colnames(dfStates2)
   col.names <- colnames(dfStates2)
   col.names
