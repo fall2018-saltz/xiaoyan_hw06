@@ -16,5 +16,6 @@ readData <- function(states)
     #change names for remaining colums
     colnames(states4) <- c("stateName","population","popOver18","percentOver18")
 
-  return(dfStates2)
+    #return the results
+    return(states4)
 }
