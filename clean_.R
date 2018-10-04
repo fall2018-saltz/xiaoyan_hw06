@@ -20,5 +20,5 @@ readRawData <- function(states)
     return(states4)
 }
 
-cleanCensus <- readData(Raw_Data)
+cleanCensus <- readRawData(Raw_Data)
 str(cleanCensus)
