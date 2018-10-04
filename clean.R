@@ -7,6 +7,7 @@ readData <- function(states)
     #-- first row is the total for the US, we do not need that
     states2 <- states[-1,]
     #--last row is Puerto Rico, it's not a state
+    num.row <- nrow(states2)
   colnames(dfStates2)
   col.names <- colnames(dfStates2)
   col.names
