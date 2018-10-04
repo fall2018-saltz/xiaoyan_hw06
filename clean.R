@@ -1,7 +1,9 @@
 
 clean_data <- raw_data
 
-readData <- function(states){ 
+readData <- function(states)
+{ 
+    #remove rows that not needed
   states2 <- states[-1,]
   View(dfStates2)
   colnames(dfStates2)
