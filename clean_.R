@@ -20,5 +20,5 @@ readRawData <- function(states)
     return(states4)
 }
 
-cleanCensus <- readData(scprc_est_2017_18_pop_res)
+cleanCensus <- readData(Raw_Data)
 str(cleanCensus)
