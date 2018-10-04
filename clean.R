@@ -5,8 +5,8 @@ readData <- function(states)
 { 
     #remove rows that not needed
     #-- first row is the total for the US, we do not need that
-  states2 <- states[-1,]
-  View(dfStates2)
+    states2 <- states[-1,]
+    #--last row is Puerto Rico, it's not a state
   colnames(dfStates2)
   col.names <- colnames(dfStates2)
   col.names
