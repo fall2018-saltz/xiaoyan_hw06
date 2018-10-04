@@ -1,7 +1,7 @@
 
-clean_data <- scprc_est_2017_18_pop_res
+clean_data <- Raw_Data
 
-readData <- function(states)
+readRawData <- function(states)
 { 
     #remove rows that not needed
     #-- first row is the total for the US, we do not need that
