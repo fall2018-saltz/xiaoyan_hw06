@@ -22,6 +22,4 @@ readRawData <- function(states)
 
 cleanCensus <- readRawData(Raw_Data)
 str(cleanCensus)
-
 arrests <- USArrests
-str(arrests)
