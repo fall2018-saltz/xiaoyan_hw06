@@ -1,5 +1,5 @@
 
-clean_data <- raw_data
+clean_data <- scprc_est_2017_18_pop_res
 
 readData <- function(states)
 { 
@@ -20,5 +20,5 @@ readData <- function(states)
     return(states4)
 }
 
-cleanCensus <- readData(raw_data)
+cleanCensus <- readData(scprc_est_2017_18_pop_res)
 str(cleanCensus)
