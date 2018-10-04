@@ -12,11 +12,9 @@ readData <- function(states)
     
     #remove the first for colums
     states4 <- states3[,-1:-4]
-  colnames(dfStates2)
-  col.names <- colnames(dfStates2)
-  col.names
-  col.names <- c("stateName","population","popOver18","percentOver18")
-  col.names
-  colnames(dfStates2) <- col.names
+    
+    #change names for remaining colums
+    colnames(states4) <- c("stateName","population","popOver18","percentOver18")
+
   return(dfStates2)
 }
