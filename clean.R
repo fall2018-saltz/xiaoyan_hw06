@@ -9,6 +9,8 @@ readData <- function(states)
     #--last row is Puerto Rico, it's not a state
     num.row <- nrow(states2)
     states3 <- states2[-num.row,]
+    
+    #remove the first for colums
   colnames(dfStates2)
   col.names <- colnames(dfStates2)
   col.names
