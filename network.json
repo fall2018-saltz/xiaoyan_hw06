@@ -13,24 +13,11 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean_.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean_.R",
-            "target": "data.csv"
         }
     ],
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
-        },
-        {
-            "name": "data.csv"
         },
         {
             "assigned_to": "xzhan147",
@@ -43,6 +30,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-05 07:56:15",
+    "updated_at": "2018-10-05 07:58:24",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
