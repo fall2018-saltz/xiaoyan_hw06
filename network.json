@@ -20,16 +20,16 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
+            "desc": "",
+            "name": "MergeArrests.R"
+        },
+        {
             "assigned_to": "xzhan147",
             "desc": "",
             "name": "clean_.R",
             "task_status": "in progress"
-        },
-        {
-            "desc": "",
-            "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-05 07:58:24",
+    "updated_at": "2018-10-05 08:02:13",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
