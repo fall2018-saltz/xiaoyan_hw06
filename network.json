@@ -55,6 +55,16 @@
             ],
             "source": "plot.R",
             "target": "MurderRateHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hisAssa",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "AssautRateHistogram.png"
         }
     ],
     "nodes": [
@@ -95,6 +105,6 @@
             "name": "RapeRateHistogram.png"
         }
     ],
-    "updated_at": "2018-10-06 15:22:14",
+    "updated_at": "2018-10-06 15:22:30",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
