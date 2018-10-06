@@ -106,6 +106,16 @@
             ],
             "source": "boxplot.R",
             "target": "boxplotPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "censusArrestsFinal",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "mostMurders.R"
         }
     ],
     "nodes": [
@@ -155,12 +165,12 @@
             "name": "boxplotPop.png"
         },
         {
-            "assigned_to": "not assigned",
+            "assigned_to": "xzhan147",
             "desc": "",
             "name": "mostMurders.R",
-            "task_status": "proposed"
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-06 15:49:15",
+    "updated_at": "2018-10-06 15:59:42",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
