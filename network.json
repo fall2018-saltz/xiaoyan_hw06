@@ -155,10 +155,12 @@
             "name": "boxplotPop.png"
         },
         {
+            "assigned_to": "not assigned",
             "desc": "",
-            "name": "script3995.R"
+            "name": "mostMurders.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-06 15:48:56",
+    "updated_at": "2018-10-06 15:49:15",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
