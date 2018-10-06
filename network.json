@@ -35,6 +35,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g1",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "PopulationHistogram.png"
         }
     ],
     "nodes": [
@@ -63,6 +73,6 @@
             "name": "PopulationHistogram.png"
         }
     ],
-    "updated_at": "2018-10-06 15:00:31",
+    "updated_at": "2018-10-06 15:00:50",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
