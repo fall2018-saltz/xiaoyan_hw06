@@ -179,6 +179,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "script9114.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "scatterPlot2",
+                    "type": "png"
+                }
+            ],
+            "source": "script9114.R",
+            "target": "scatterpot2.png"
         }
     ],
     "nodes": [
@@ -261,6 +271,6 @@
             "name": "scatterpot2.png"
         }
     ],
-    "updated_at": "2018-10-06 17:13:54",
+    "updated_at": "2018-10-06 17:14:11",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
