@@ -87,8 +87,11 @@
         },
         {
             "name": "AssautRateHistogram.png"
+        },
+        {
+            "name": "UrbanPopHistogram.png"
         }
     ],
-    "updated_at": "2018-10-06 15:21:44",
+    "updated_at": "2018-10-06 15:22:01",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
