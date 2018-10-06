@@ -39,16 +39,6 @@
         {
             "ports": [
                 {
-                    "output": "g2",
-                    "type": "png"
-                }
-            ],
-            "source": "plot.R",
-            "target": "MurderRateHistogram.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "hisAssa",
                     "type": "png"
                 }
@@ -85,6 +75,16 @@
             ],
             "source": "plot.R",
             "target": "PopulationHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hisMur",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "MurderRateHistogram.png"
         }
     ],
     "nodes": [
@@ -125,6 +125,6 @@
             "name": "RapeRateHistogram.png"
         }
     ],
-    "updated_at": "2018-10-06 15:23:54",
+    "updated_at": "2018-10-06 15:24:09",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
