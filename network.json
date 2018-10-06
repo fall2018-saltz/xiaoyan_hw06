@@ -71,8 +71,11 @@
         },
         {
             "name": "PopulationHistogram.png"
+        },
+        {
+            "name": "MurderRateHistogram.png"
         }
     ],
-    "updated_at": "2018-10-06 15:00:50",
+    "updated_at": "2018-10-06 15:05:55",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
