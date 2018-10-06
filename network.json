@@ -96,6 +96,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "boxplot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplotPop",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplotPop.png"
         }
     ],
     "nodes": [
@@ -145,6 +155,6 @@
             "name": "boxplotPop.png"
         }
     ],
-    "updated_at": "2018-10-06 15:39:55",
+    "updated_at": "2018-10-06 15:40:10",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
