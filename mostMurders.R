@@ -1,5 +1,5 @@
 
 murderNumByState <- censusArrestsFinal$Murder/100000*censusArrestsFinal$population
-colnames(censusArrestsFinal2) <- c(murderNumByState,colnames(censusArrestsFinal))
-
+cNames <-c(murderNumByState,colnames(censusArrestsFinal)) 
+censusArrestsFinal2<- data.frame(cNames)
 str(censusArrestsFinal2)
