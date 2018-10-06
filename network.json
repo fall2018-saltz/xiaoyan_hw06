@@ -256,8 +256,11 @@
             "desc": "",
             "name": "script9114.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "scatterpot2.png"
         }
     ],
-    "updated_at": "2018-10-06 17:13:46",
+    "updated_at": "2018-10-06 17:13:54",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
