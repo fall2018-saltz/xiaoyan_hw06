@@ -1,7 +1,7 @@
 
 arrests <- USArrests
 rownames(USArrests)
-cleanCensus$stateName <- rownames(cleanCensus)
+rownames(cleanCensus) <- cleanCensus$stateName
 str(cleanCensus)
 
 merge(cleanCensus,arrests,by= "row.names", all= TRUE)
