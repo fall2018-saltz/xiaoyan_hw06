@@ -137,6 +137,16 @@
             ],
             "source": "mostMurders.R",
             "target": "barCSortedMostMurders.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barCColor",
+                    "type": "png"
+                }
+            ],
+            "source": "mostMurders.R",
+            "target": "barCColor.png"
         }
     ],
     "nodes": [
@@ -201,6 +211,6 @@
             "name": "barCColor.png"
         }
     ],
-    "updated_at": "2018-10-06 16:51:16",
+    "updated_at": "2018-10-06 16:51:30",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
