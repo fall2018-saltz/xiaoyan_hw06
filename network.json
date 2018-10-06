@@ -54,10 +54,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "xzhan147",
             "desc": "",
-            "name": "plot.R"
+            "name": "plot.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "PopulationHistogram.png"
         }
     ],
-    "updated_at": "2018-10-06 14:48:08",
+    "updated_at": "2018-10-06 15:00:31",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
