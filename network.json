@@ -45,6 +45,16 @@
             ],
             "source": "plot.R",
             "target": "PopulationHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g2",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "MurderRateHistogram.png"
         }
     ],
     "nodes": [
@@ -76,6 +86,6 @@
             "name": "MurderRateHistogram.png"
         }
     ],
-    "updated_at": "2018-10-06 15:05:55",
+    "updated_at": "2018-10-06 15:06:05",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
