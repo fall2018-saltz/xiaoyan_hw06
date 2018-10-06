@@ -8,3 +8,4 @@ str(cleanCensus)
 censusArrests <- merge(cleanCensus,arrests,by= "row.names", all= TRUE)
 
 head(censusArrests)
+censusArrestsFinal <- [,-1]
