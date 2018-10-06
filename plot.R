@@ -13,3 +13,9 @@ head(censusArrestsFinal,10)
  hisMur2 <- hisMur1 + geom_histogram(binwidth=2,color="black", fill="white")
  hisMur <- hisMur2 + ggtitle("Murder Rate Histogram")
  hisMur
+
+
+hisAssa1 <- ggplot(censusArrestsFinal, aes(x=Murder)) 
+ hisAssa2 <- hisAssa1 + geom_histogram(binwidth=2,color="black", fill="white")
+ hisAssa <- hisAssa2 + ggtitle("Murder Rate Histogram")
+ hisAssa
