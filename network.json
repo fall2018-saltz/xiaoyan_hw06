@@ -225,8 +225,11 @@
             "desc": "",
             "name": "script4942.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "scatterPlot.png"
         }
     ],
-    "updated_at": "2018-10-06 17:04:59",
+    "updated_at": "2018-10-06 17:05:20",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
