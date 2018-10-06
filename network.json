@@ -117,6 +117,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "mostMurders.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barC",
+                    "type": "png"
+                }
+            ],
+            "source": "mostMurders.R",
+            "target": "barChartMurderByState.png"
         }
     ],
     "nodes": [
@@ -175,6 +185,6 @@
             "name": "barChartMurderByState.png"
         }
     ],
-    "updated_at": "2018-10-06 16:21:51",
+    "updated_at": "2018-10-06 16:22:06",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
