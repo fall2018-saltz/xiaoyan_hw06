@@ -168,6 +168,17 @@
             ],
             "source": "MergeArrests.R",
             "target": "script4942.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "censusArrestsFinal",
+                    "output": "censusArrestsFinal",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "script9114.R"
         }
     ],
     "nodes": [
@@ -241,10 +252,12 @@
             "name": "scatterPlot.png"
         },
         {
+            "assigned_to": "xzhan147",
             "desc": "",
-            "name": "script9114.R"
+            "name": "script9114.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-06 17:11:42",
+    "updated_at": "2018-10-06 17:13:46",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
