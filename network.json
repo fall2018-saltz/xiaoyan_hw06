@@ -170,8 +170,11 @@
             "desc": "",
             "name": "mostMurders.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "barChartMurderByState.png"
         }
     ],
-    "updated_at": "2018-10-06 16:00:02",
+    "updated_at": "2018-10-06 16:21:51",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
