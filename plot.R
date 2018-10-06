@@ -4,12 +4,12 @@ library("ggplot2")
 head(censusArrestsFinal,10)
 
  
- g1.1 <- ggplot(censusArrestsFinal, aes(x=population)) 
- g1.2 <- g1.1 + geom_histogram(binwidth=5000000, color="black", fill="white")
- g1 <- g1.2 + ggtitle("States Population Histogram")
- g1
+ hisPop1 <- ggplot(censusArrestsFinal, aes(x=population)) 
+ hisPop2 <- hisPop1 + geom_histogram(binwidth=5000000, color="black", fill="white")
+ hisPop <- hisPop2 + ggtitle("States Population Histogram")
+ hisPop
 
- g2.1 <- ggplot(censusArrestsFinal, aes(x=Murder)) 
- g2.2 <- g2.1 + geom_histogram(binwidth=2,color="black", fill="white")
- g2 <- g2.2 + ggtitle("Murder Rate Histogram")
- g2
+ hisMur1 <- ggplot(censusArrestsFinal, aes(x=Murder)) 
+ hisMur2 <- hisMur1 + geom_histogram(binwidth=2,color="black", fill="white")
+ hisMur <- hisMur2 + ggtitle("Murder Rate Histogram")
+ hisMur
