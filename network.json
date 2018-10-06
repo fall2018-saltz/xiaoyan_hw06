@@ -17,7 +17,8 @@
         {
             "ports": [
                 {
-                    "output": "cleancensus",
+                    "input": "cleanCensus",
+                    "output": "cleanCensus",
                     "type": "r_obj"
                 }
             ],
@@ -40,6 +41,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-06 14:15:59",
+    "updated_at": "2018-10-06 14:17:09",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
