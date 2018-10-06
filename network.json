@@ -85,6 +85,17 @@
             ],
             "source": "plot.R",
             "target": "MurderRateHistogram.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "censusArrestsFinal",
+                    "output": "censusArrestsFinal",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "boxplot.R"
         }
     ],
     "nodes": [
@@ -129,6 +140,6 @@
             "name": "boxplot.R"
         }
     ],
-    "updated_at": "2018-10-06 15:27:09",
+    "updated_at": "2018-10-06 15:28:10",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
