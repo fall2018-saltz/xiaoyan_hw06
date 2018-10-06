@@ -151,22 +151,23 @@
         {
             "ports": [
                 {
-                    "output": "censusArrestsFinal",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "MergeArrests.R",
-            "target": "script4942.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "scatterPlot",
                     "type": "png"
                 }
             ],
             "source": "script4942.R",
             "target": "scatterPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "censusArrestsFinal",
+                    "output": "censusArrestsFinal",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "script4942.R"
         }
     ],
     "nodes": [
@@ -240,6 +241,6 @@
             "name": "scatterPlot.png"
         }
     ],
-    "updated_at": "2018-10-06 17:06:37",
+    "updated_at": "2018-10-06 17:08:25",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
