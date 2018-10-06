@@ -121,22 +121,22 @@
         {
             "ports": [
                 {
-                    "output": "barCSortedMostMurders",
-                    "type": "png"
-                }
-            ],
-            "source": "mostMurders.R",
-            "target": "barCSortedMostMurders.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "barCMostMurder",
                     "type": "png"
                 }
             ],
             "source": "mostMurders.R",
             "target": "barCMostMurders.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "barCSortedMostMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "mostMurders.R",
+            "target": "barCSortedMostMurders.png"
         }
     ],
     "nodes": [
@@ -198,6 +198,6 @@
             "name": "barCSortedMostMurders.png"
         }
     ],
-    "updated_at": "2018-10-06 16:38:09",
+    "updated_at": "2018-10-06 16:38:15",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
