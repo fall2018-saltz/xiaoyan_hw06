@@ -15,3 +15,7 @@ library("ggplot2")
     theme(axis.text.x = element_text(angle = 45))
  barCSortedMostMurders
  
+  barCColor <- ggplot(censusArrestsFinal2, title="Most Murders") +
+    geom_col(aes(x=reorder(stateName,-murderNumByState), y=murderNumByState,fill=percentOver18))+labs(x="Total Murders")+
+    theme(axis.text.x = element_text(angle = 90))
+ barCColor
