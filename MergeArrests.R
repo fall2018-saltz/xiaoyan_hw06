@@ -9,4 +9,4 @@ censusArrests <- merge(cleanCensus,arrests,by= "row.names", all= TRUE)
 
 head(censusArrests)
 censusArrestsFinal <-censusArrests[,-1]
-head(censusArrestsFinal)
+head(censusArrestsFinal,10)
