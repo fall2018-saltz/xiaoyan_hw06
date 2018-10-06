@@ -6,11 +6,12 @@ censusArrestsFinal2$murderNumByState <- censusArrestsFinal$Murder/100000*censusA
 
 library("ggplot2")
  barCMostMurder <- ggplot(censusArrestsFinal2, title="Most Murders") +
-    geom_col(aes(x=stateName, y=murderNumByState))+labs(x="Total Murders")+ 
- barC
+    geom_col(aes(x=stateName, y=murderNumByState))+labs(x="Total Murders")+
+    theme(axis.text.x = element_text(angle = 45))
+ barCMostMurder
  
- g <- ggplot(dfStates,aes(x=reorder(stateName, july11pop), y=july11pop,fill=percentChange)) 
- g <- g + geom_col() 
- g <- g + theme(axis.text.x = element_text(angle = 90, hjust = 1))
- g
+ barCSortedMostMurder <- ggplot(censusArrestsFinal2, title="Most Murders") +
+    geom_col(aes(x=reorder(stateName,murderNumByState), y=murderNumByState))+labs(x="Total Murders")+
+    theme(axis.text.x = element_text(angle = 45))
+ barCSortedMostMurder
  
