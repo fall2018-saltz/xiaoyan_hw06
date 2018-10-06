@@ -153,8 +153,12 @@
         },
         {
             "name": "boxplotPop.png"
+        },
+        {
+            "desc": "",
+            "name": "script3995.R"
         }
     ],
-    "updated_at": "2018-10-06 15:46:09",
+    "updated_at": "2018-10-06 15:48:56",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
