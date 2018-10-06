@@ -13,6 +13,16 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean_.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "cleancensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean_.R",
+            "target": "MergeArrests.R"
         }
     ],
     "nodes": [
@@ -30,6 +40,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-05 08:02:13",
+    "updated_at": "2018-10-06 14:15:59",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
