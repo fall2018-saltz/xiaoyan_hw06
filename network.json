@@ -31,16 +31,22 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
+            "assigned_to": "xzhan147",
             "desc": "",
-            "name": "MergeArrests.R"
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
         },
         {
             "assigned_to": "xzhan147",
             "desc": "",
             "name": "clean_.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "plot.R"
         }
     ],
-    "updated_at": "2018-10-06 14:17:09",
+    "updated_at": "2018-10-06 14:47:42",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
