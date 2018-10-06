@@ -7,3 +7,5 @@ str(cleanCensus)
 
 mergedData <- merge(cleanCensus,arrests,by= "row.names", all= TRUE)
 
+censusArrests <- mergedData
+
