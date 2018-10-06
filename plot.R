@@ -19,3 +19,8 @@ hisAssa1 <- ggplot(censusArrestsFinal, aes(x=Murder))
  hisAssa2 <- hisAssa1 + geom_histogram(binwidth=2,color="black", fill="white")
  hisAssa <- hisAssa2 + ggtitle("Murder Rate Histogram")
  hisAssa
+ 
+ hisUrbanPop1 <- ggplot(censusArrestsFinal, aes(x=Murder)) 
+ hisUrbanPop2 <- hisUrbanPop1 + geom_histogram(binwidth=2,color="black", fill="white")
+ hisUrbanPop <- hisUrbanPop2 + ggtitle("Murder Rate Histogram")
+ hisUrbanPop
