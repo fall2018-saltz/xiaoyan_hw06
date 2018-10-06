@@ -110,6 +110,7 @@
         {
             "ports": [
                 {
+                    "input": "censusArrestsFinal",
                     "output": "censusArrestsFinal",
                     "type": "r_obj"
                 }
@@ -171,6 +172,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-06 15:59:42",
+    "updated_at": "2018-10-06 16:00:02",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
