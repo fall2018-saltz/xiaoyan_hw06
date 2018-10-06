@@ -1,2 +1,2 @@
 
-murderNumByState <- murder/100,1000*population
+murderNumByState <- murder/1001000*population
