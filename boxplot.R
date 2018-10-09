@@ -3,7 +3,7 @@ library("ggplot2")
 boxplotPop <- ggplot(censusArrestsFinal, aes(x=factor(0),population))+geom_boxplot()
 boxplotPop
 
-boxplotMurder <- ggplot(censusArrestsFinal, aes(x=factor(0),murder))+geom_boxplot()
+boxplotMurder <- ggplot(censusArrestsFinal, aes(x=factor(0),Murder))+geom_boxplot()
 boxplotMurder
 
 head(censusArrestsFinal)
