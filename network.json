@@ -233,12 +233,6 @@
             "name": "RapeRateHistogram.png"
         },
         {
-            "assigned_to": "xzhan147",
-            "desc": "",
-            "name": "boxplot.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "boxplotPop.png"
         },
         {
@@ -282,8 +276,14 @@
         },
         {
             "name": "boxplotMurder.png"
+        },
+        {
+            "assigned_to": "xzhan147",
+            "desc": "",
+            "name": "boxplot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-09 19:13:20",
+    "updated_at": "2018-10-09 19:27:26",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
