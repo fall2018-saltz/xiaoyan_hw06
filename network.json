@@ -208,12 +208,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "xzhan147",
-            "desc": "",
-            "name": "plot.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "PopulationHistogram.png"
         },
         {
@@ -269,8 +263,14 @@
         },
         {
             "name": "scatterpot2.png"
+        },
+        {
+            "assigned_to": "xzhan147",
+            "desc": "",
+            "name": "plot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-06 17:14:11",
+    "updated_at": "2018-10-09 19:07:24",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
