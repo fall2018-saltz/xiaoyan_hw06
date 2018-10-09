@@ -3,7 +3,8 @@ library("ggplot2")
 
 head(censusArrestsFinal,10)
 
- # the first line creates a ggplot, where the dataframe to be used is censusArrestsFinal
+ # the first line creates a ggplot, where the dataframe to be used is 
+ #censusArrestsFinal, and the X-axix witll be population. The next line states
  hisPop1 <- ggplot(censusArrestsFinal, aes(x=population)) 
  hisPop2 <- hisPop1 + geom_histogram(binwidth=5000000, color="black", fill="white")
  hisPop <- hisPop2 + ggtitle("States Population Histogram")
