@@ -189,6 +189,16 @@
             ],
             "source": "script9114.R",
             "target": "scatterpot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxplotMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "boxplot.R",
+            "target": "boxplotMurder.png"
         }
     ],
     "nodes": [
@@ -274,6 +284,6 @@
             "name": "boxplotMurder.png"
         }
     ],
-    "updated_at": "2018-10-09 19:13:03",
+    "updated_at": "2018-10-09 19:13:20",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
