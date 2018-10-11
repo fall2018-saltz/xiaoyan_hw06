@@ -9,11 +9,11 @@ us <- map_data("state")
 DFhw7$stateName <- tolower(DFhw7$stateName)
 head(DFhw7)
  
- # a map named mapColor is created 
- mapColor <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +  
-                geom_map(map = us, fill=DFhw7$state.area) + 
+ # a map named mapColorByMurder is created 
+ mapColorByMurder <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +  
+                geom_map(map = us, fill=DFhw7$Murder) + 
                 expand_limits(x = DFhw7$x, y = DFhw7$y) +
-                coord_map() +  ggtitle("Map By Area in USA")
+                coord_map() +  ggtitle("Map By Murder Rate in USA")
 mapColor
   
  dfStates <- readCensus()
