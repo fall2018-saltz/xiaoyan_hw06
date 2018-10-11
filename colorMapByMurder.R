@@ -18,9 +18,7 @@ mapColorByMurder
   
 library("RColorBrewer")
 
-min(DFhw7$population)
-max(DFhw7$population)
 summary(DFhw7$population)
 DFhw7$population
-DFhw7$popSizes <- factor(DFhw7$population, levels=c("")
+DFhw7$popSizes <- factor(DFhw7$population, levels=c("1-579315","579315-1766400")
  
