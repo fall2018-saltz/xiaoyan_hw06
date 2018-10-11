@@ -1,6 +1,7 @@
 
 us <- map_data("state")
 
+# lowercase the state names in order to make the ggplot function works
 DFhw7$stateName <- tolower(DFhw7$stateName)
  
  map.simple <- ggplot(dummyDF, aes(map_id = state))  
