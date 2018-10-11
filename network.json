@@ -299,8 +299,12 @@
             "desc": "",
             "name": "MergeArrests.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "colorMap.R"
         }
     ],
-    "updated_at": "2018-10-11 16:26:36",
+    "updated_at": "2018-10-11 17:26:45",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
