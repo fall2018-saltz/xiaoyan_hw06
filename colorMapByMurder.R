@@ -20,10 +20,9 @@ library("RColorBrewer")
 
  mapCircleByPop <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +  
                 geom_map(map = us, fill="white", color="black") + 
- map.simple <- map.simple+  geom_map(map = us, fill="white", color="black") 
- map.simple <- map.simple + expand_limits(x = us$long, y = us$lat)
- map.simple <- map.simple + coord_map() +  ggtitle("basic map of continental USA")
- map.simple
+                expand_limits(x = DFhw7$x, y = DFhw7$y) +
+                coord_map() +  ggtitle("Map By Population in USA") 
+
 
 summary(DFhw7$population)
 DFhw7$population
