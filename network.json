@@ -261,7 +261,7 @@
                 }
             ],
             "source": "colorMapByMurder.R",
-            "target": "byPop.png"
+            "target": "mapCirclebyPop.png"
         }
     ],
     "nodes": [
@@ -371,9 +371,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "byPop.png"
+            "name": "mapCirclebyPop.png"
         }
     ],
-    "updated_at": "2018-10-11 19:21:04",
+    "updated_at": "2018-10-11 19:21:34",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
