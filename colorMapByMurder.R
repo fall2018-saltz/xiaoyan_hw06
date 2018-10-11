@@ -19,7 +19,7 @@ mapColorByMurder
 library("RColorBrewer")
 
  mapCircleByPop <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +  
-                geom_map(map = us, fill="white", color="black") + 
+                geom_map(map = us, fill="white", color="red") + 
                 expand_limits(x = DFhw7$x, y = DFhw7$y) +
                 coord_map() +  ggtitle("Map By Population in USA") +
                 geom_point(aes(x= DFhw7$x, y = DFhw7$y),size=DFhw7$population)
