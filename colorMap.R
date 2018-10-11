@@ -11,4 +11,3 @@ DFhw7$stateName <- tolower(DFhw7$stateName)
                 coord_map() +  ggtitle("Map By Area in USA")
 mapColor
 
-
