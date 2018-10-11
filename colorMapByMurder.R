@@ -23,18 +23,7 @@ library("RColorBrewer")
                 expand_limits(x = DFhw7$x, y = DFhw7$y) +
                 coord_map() +  ggtitle("Map By Population in USA") +
                 geom_point(aes(size=DFhw7$population) 
+mapCircleByPop
                 
 
 
-summary(DFhw7$population)
-DFhw7$population
-DFhw7$popSizes <- factor(DFhw7$population, levels=c("1-579315","579316-1766400"
-                    "1766401-4454189","4454190-72211006","72211007-39536653")
-
-
-USAMap + 
-   geom_point(aes(x=lon, y=lat), data=mv_num_collisions, 
-   col="orange", alpha=0.4, 
-   size=mv_num_collisions$collisions*circle_scale_amt) +  
-   scale_size_continuous(range=range(mv_num_collisions$collisions))
- 
