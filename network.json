@@ -252,16 +252,6 @@
             ],
             "source": "colorMapByMurder.R",
             "target": "colorMapByMurder.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "mapCircleByPop",
-                    "type": "png"
-                }
-            ],
-            "source": "colorMapByMurder.R",
-            "target": "mapCircleByPop.png"
         }
     ],
     "nodes": [
@@ -365,15 +355,12 @@
             "name": "colorMapByMurder.png"
         },
         {
-            "name": "mapCircleByPop.png"
-        },
-        {
             "assigned_to": "xzhan147",
             "desc": "",
             "name": "colorMapByMurder.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 19:17:54",
+    "updated_at": "2018-10-11 19:18:43",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
