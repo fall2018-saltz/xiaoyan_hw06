@@ -3,8 +3,8 @@ library("ggplot2")
 library("maps")
 library("ggmap")
 
-newDF <- data.frame(state.area, state.center,state.name)
-newDF$stateName <- newDF$state.name
+DF <- data.frame(state.area, state.center,state.name)
+DF$state.name <- newDF$stateName
 head(newDF)
 censusArrestsHW7 <-merge(censusArrestsFinal,subDF,by= "stateName", all= TRUE)
 
