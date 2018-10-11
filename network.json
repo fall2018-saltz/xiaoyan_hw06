@@ -282,8 +282,12 @@
             "desc": "",
             "name": "boxplot.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "HW7.R"
         }
     ],
-    "updated_at": "2018-10-11 15:30:57",
+    "updated_at": "2018-10-11 15:32:43",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
