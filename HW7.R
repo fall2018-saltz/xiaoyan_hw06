@@ -4,8 +4,8 @@ library("maps")
 library("ggmap")
 
 censusArrestsHW7 <-censusArrestsFinal
+censusArrestsHW7 
 
-colnames(cesnsusArrestsHW7) <-c(censusArrestsHW7,state.area,state.center,state.name) 
 
 2)	Add the area of each state, and the center of each state, 
 to the merged dataframe, 
