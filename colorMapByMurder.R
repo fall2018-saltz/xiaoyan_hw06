@@ -16,6 +16,6 @@ head(DFhw7)
                 coord_map() +  ggtitle("Map By Murder Rate in USA")
 mapColorByMurder
   
-  
+
 library("RColorBrewer")
  
