@@ -329,8 +329,12 @@
         },
         {
             "name": "mapColorByArea.png"
+        },
+        {
+            "desc": "",
+            "name": "colorMapByMurder.R"
         }
     ],
-    "updated_at": "2018-10-11 17:39:31",
+    "updated_at": "2018-10-11 17:42:02",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
