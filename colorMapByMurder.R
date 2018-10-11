@@ -23,5 +23,6 @@ population, the larger the circle), using the location
 defined by the center of each state
 min(DFhw7$population)
 max(DFhw7$population)
+summary(DFhw7$population)
 DFhw7$popSizes <- factor(DFhw7$population, levels=c("")
  
