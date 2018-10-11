@@ -21,9 +21,15 @@ library("RColorBrewer")
 mapCircleByPop <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +  
                 geom_map(map = us, fill="white", color="red") + 
                 expand_limits(x = DFhw7$x, y = DFhw7$y) +
-                coord_map() +  ggtitle("Map By Population in USA")
+                coord_map() +  ggtitle("Map By Population in USA")+
                 
 mapCircleByPop
+
+scatterPlot <- ggplot(censusArrestsFinal, aes(x=population, y=percentOver18)) +
+    geom_point(aes(size=Murder, color=Murder))+
+    theme(axis.text.x = element_text(angle = 90))
+
+scatterPlot
                 
 
 
