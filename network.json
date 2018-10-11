@@ -359,8 +359,11 @@
             "desc": "",
             "name": "colorMapByMurder.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "byPop.png"
         }
     ],
-    "updated_at": "2018-10-11 19:18:51",
+    "updated_at": "2018-10-11 19:19:14",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
