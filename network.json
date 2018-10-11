@@ -219,12 +219,6 @@
         {
             "assigned_to": "xzhan147",
             "desc": "",
-            "name": "MergeArrests.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "xzhan147",
-            "desc": "",
             "name": "clean_.R",
             "task_status": "in progress"
         },
@@ -295,10 +289,18 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "xzhan147",
             "desc": "",
-            "name": "HW7.R"
+            "name": "HW7.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "xzhan147",
+            "desc": "",
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 15:35:33",
+    "updated_at": "2018-10-11 16:26:36",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
