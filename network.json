@@ -231,6 +231,16 @@
             ],
             "source": "HW7.R",
             "target": "colorMap.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "colorMapByMurder",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "HW7.R",
+            "target": "colorMapByMurder.R"
         }
     ],
     "nodes": [
@@ -337,6 +347,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 17:43:11",
+    "updated_at": "2018-10-11 17:44:44",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
