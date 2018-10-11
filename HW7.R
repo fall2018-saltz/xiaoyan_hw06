@@ -3,8 +3,10 @@ library("ggplot2")
 library("maps")
 library("ggmap")
 
-censusArrestsHW7 <-censusArrestsFinal
+subDFcensusArrestsHW7 <-censusArrestsFinal
 censusArrestsHW7 
+
+censusArrests <- merge(cleanCensus,arrests,by= "row.names", all= TRUE)
 
 
 2)	Add the area of each state, and the center of each state, 
