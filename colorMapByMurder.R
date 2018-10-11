@@ -20,5 +20,6 @@ library("RColorBrewer")
 
 summary(DFhw7$population)
 DFhw7$population
-DFhw7$popSizes <- factor(DFhw7$population, levels=c("1-579315","579315-1766400")
+DFhw7$popSizes <- factor(DFhw7$population, levels=c("1-579315","579316-1766400"
+                    "1766401-4454189","4454190-72211006","72211007-39536653")
  
