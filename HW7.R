@@ -3,7 +3,7 @@ library("ggplot2")
 library("maps")
 library("ggmap")
 
-subDF <- 
+subDF <- c(state.area, state.center,state.name)
 censusArrestsHW7 <-censusArrestsFinal
 censusArrestsHW7 
 
