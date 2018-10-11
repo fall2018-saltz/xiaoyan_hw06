@@ -5,12 +5,3 @@ library("ggmap")
 
 DF <- data.frame(state.area, state.center,state.name)
 
-DF$stateName <- DF$state.name
-head(DF)
-DFhw7 <-merge(censusArrestsFinal,DF,by= "stateName", all= TRUE)
-DFhw7 <- DFhw7[,-1]
-head(DFhw7)
-censusArrestsHW7 
-
-censusArrests <- merge(cleanCensus,arrests,by= "row.names", all= TRUE)
-
