@@ -1,7 +1,7 @@
 
 us <- map_data("state")
- dummyDF <- data.frame(state.name, stringsAsFactors=FALSE)
- dummyDF$state <- tolower(dummyDF$state.name)
+
+DFhw7$stateName <- tolower(DFhw7$stateName)
  
  map.simple <- ggplot(dummyDF, aes(map_id = state))  
  map.simple <- map.simple+  geom_map(map = us, fill="white", color="black") 
