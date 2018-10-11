@@ -14,6 +14,6 @@ head(DFhw7)
                 geom_map(map = us, fill=DFhw7$Murder) + 
                 expand_limits(x = DFhw7$x, y = DFhw7$y) +
                 coord_map() +  ggtitle("Map By Murder Rate in USA")
-mapColor
+mapColorByMurder
   
  
