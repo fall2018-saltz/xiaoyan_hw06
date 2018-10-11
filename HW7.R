@@ -3,7 +3,8 @@ library("ggplot2")
 library("maps")
 library("ggmap")
 
-subDFcensusArrestsHW7 <-censusArrestsFinal
+subDF <- 
+censusArrestsHW7 <-censusArrestsFinal
 censusArrestsHW7 
 
 censusArrests <- merge(cleanCensus,arrests,by= "row.names", all= TRUE)
