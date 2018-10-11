@@ -221,6 +221,16 @@
             ],
             "source": "HW7.R",
             "target": "colorMap.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapColor",
+                    "type": "png"
+                }
+            ],
+            "source": "colorMap.R",
+            "target": "mapColorByArea.png"
         }
     ],
     "nodes": [
@@ -321,6 +331,6 @@
             "name": "mapColorByArea.png"
         }
     ],
-    "updated_at": "2018-10-11 17:37:45",
+    "updated_at": "2018-10-11 17:38:02",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
