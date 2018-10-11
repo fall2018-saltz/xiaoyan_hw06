@@ -365,15 +365,15 @@
             "name": "colorMapByMurder.png"
         },
         {
+            "name": "mapCirclebyPop.png"
+        },
+        {
             "assigned_to": "xzhan147",
             "desc": "",
             "name": "colorMapByMurder.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "mapCirclebyPop.png"
         }
     ],
-    "updated_at": "2018-10-11 19:21:34",
+    "updated_at": "2018-10-11 19:29:12",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
