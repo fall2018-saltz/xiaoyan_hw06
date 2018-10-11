@@ -22,7 +22,7 @@ mapCircleByPop <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +
                 geom_map(map = us, fill="white", color="red") + 
                 expand_limits(x = DFhw7$x, y = DFhw7$y) +
                 coord_map() +  ggtitle("Map By Population in USA")+
-                geom_point(aes(size=population, color=population))
+                geom_point(aes(x = DFhw7$x, y = DFhw7$y),(size=population, color=population))
                 
 mapCircleByPop
 
@@ -31,5 +31,10 @@ scatterPlot <- ggplot(censusArrestsFinal, aes(x=population, y=percentOver18)) +
     theme(axis.text.x = element_text(angle = 90))
 
 scatterPlot
+  geom_point(aes(x=lon, y=lat), data=mv_num_collisions, 
+                                      col="orange", alpha=0.4, 
+                                      size=mv_num_collisions$collisions*circle_scale_amt) +  
+                           scale_size_continuous(range=range(mv_num_collisions$collisions))
+                         
 
 
