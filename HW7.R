@@ -4,9 +4,9 @@ library("maps")
 library("ggmap")
 
 DF <- data.frame(state.area, state.center,state.name)
-head(DF)
-DF$stateName <- DF$state.name
 
+DF$stateName <- DF$state.name
+head(DF)
 censusArrestsHW7 <-merge(censusArrestsFinal,subDF,by= "stateName", all= TRUE)
 
 censusArrestsHW7 
