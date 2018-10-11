@@ -199,6 +199,17 @@
             ],
             "source": "boxplot.R",
             "target": "boxplotMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "censusArrestsFinal",
+                    "output": "censusArrestsFinal",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "HW7.R"
         }
     ],
     "nodes": [
@@ -288,6 +299,6 @@
             "name": "HW7.R"
         }
     ],
-    "updated_at": "2018-10-11 15:32:43",
+    "updated_at": "2018-10-11 15:35:33",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
