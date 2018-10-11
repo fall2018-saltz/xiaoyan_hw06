@@ -312,10 +312,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "xzhan147",
             "desc": "",
-            "name": "colorMap.R"
+            "name": "colorMap.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "mapColorByArea.png"
         }
     ],
-    "updated_at": "2018-10-11 17:27:21",
+    "updated_at": "2018-10-11 17:37:45",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
