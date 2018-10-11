@@ -256,7 +256,7 @@
         {
             "ports": [
                 {
-                    "output": "mapByPop",
+                    "output": "mapCircleByPop",
                     "type": "png"
                 }
             ],
@@ -374,6 +374,6 @@
             "name": "byPop.png"
         }
     ],
-    "updated_at": "2018-10-11 19:19:35",
+    "updated_at": "2018-10-11 19:20:22",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
