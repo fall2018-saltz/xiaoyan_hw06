@@ -4,7 +4,7 @@ library("maps")
 library("ggmap")
 
 subDF <- c(state.area, state.center,state.name)
-str(subDF)
+head(subDF)
 subDF$state.name <- stateName
 censusArrestsHW7 <-merge(censusArrestsFinal,subDF,by= "stateName", all= TRUE)
 
