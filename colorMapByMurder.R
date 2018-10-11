@@ -16,6 +16,10 @@ head(DFhw7)
                 coord_map() +  ggtitle("Map By Murder Rate in USA")
 mapColorByMurder
   
-
 library("RColorBrewer")
+
+Show the population as a circle per state (the larger the 
+population, the larger the circle), using the location 
+defined by the center of each state
+
  
