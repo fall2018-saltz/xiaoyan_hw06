@@ -9,5 +9,4 @@ num.col <- ncol(DF)
 num.col
 DF <- DF[,-(num.col-1)]
 head(DF)
-DFhw7 <-merge(censusArrestsFinal,DF,by= "stateName", all= TRUE)
-DFhw7 <- DFhw7[,-1]
+DFhw7 <-merge(censusArrestsFinal,DF,by= "stateName", all= TRUE)DFhw7 <- DFhw7[,-1]
