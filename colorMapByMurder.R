@@ -7,6 +7,7 @@ us <- map_data("state")
 
 # lowercase the state names in order to make the ggplot function works
 DFhw7$stateName <- tolower(DFhw7$stateName)
+head(DFhw7)
  
  # a map named mapColor is created 
  mapColor <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +  
