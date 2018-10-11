@@ -322,19 +322,21 @@
             "task_status": "in progress"
         },
         {
+            "name": "mapColorByArea.png"
+        },
+        {
+            "assigned_to": "xzhan147",
+            "desc": "",
+            "name": "colorMapByMurder.R",
+            "task_status": "in progress"
+        },
+        {
             "assigned_to": "xzhan147",
             "desc": "",
             "name": "colorMap.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "mapColorByArea.png"
-        },
-        {
-            "desc": "",
-            "name": "colorMapByMurder.R"
         }
     ],
-    "updated_at": "2018-10-11 17:42:02",
+    "updated_at": "2018-10-11 17:43:11",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
