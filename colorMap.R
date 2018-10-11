@@ -5,8 +5,8 @@ us <- map_data("state")
 DFhw7$stateName <- tolower(DFhw7$stateName)
  
  # a map named mapColor is created 
- mapColor <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +  geom_map(map = us, fill="white", color="black") 
- map.simple <- map.simple + expand_limits(x = us$long, y = us$lat)
+ mapColor <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +  
+                geom_map(map = us, fill=DFhw7$state.area) + expand_limits(x = us$long, y = us$lat)
  map.simple <- map.simple + coord_map() +  ggtitle("basic map of continental USA")
  map.simple
 
