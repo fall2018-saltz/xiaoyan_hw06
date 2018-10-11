@@ -7,8 +7,7 @@ DF <- data.frame(state.area, state.center,state.name)
 
 DF$stateName <- DF$state.name
 head(DF)
-num.col <- ncol(DF)
-num.row
+num.col <- ncol(DFnum.ro
 DF <- DF[]
 DFhw7 <-merge(censusArrestsFinal,DF,by= "stateName", all= TRUE)
 DFhw7 <- DFhw7[,-1]
