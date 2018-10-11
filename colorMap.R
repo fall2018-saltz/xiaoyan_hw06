@@ -1,4 +1,8 @@
 
+library("ggplot2")
+library("maps")
+library("ggmap")
+
 us <- map_data("state")
 
 # lowercase the state names in order to make the ggplot function works
