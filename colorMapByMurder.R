@@ -20,9 +20,9 @@ library("RColorBrewer")
 
  mapColorByMurder <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +  
                 geom_map(map = us, fill=DFhw7$Murder) + 
-                geop_point()
+                geom_point(x=state.center$x, y=state.center$y, size DFhw7$population
                 expand_limits(x = DFhw7$x, y = DFhw7$y) +
-                coord_map() +  ggtitle("Map By Murder Rate in USA")
+                coord_map() +  ggtitle("Map By Murder Reate in USA")
 mapColorByMurder
 
 mapCircleByPop <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +  
