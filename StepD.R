@@ -4,6 +4,7 @@ mapCircleByPopNE <- mapColorByMurder +
                 aes(size=DFhw7$population))
 mapCircleByPopNE
 
+latlon <- geocode("")
 mapCircleByPopNE <- mapColorByMurder + 
                 geom_point(x = latlon$lon, y = DFhw7$y, color="white",
                 aes(size=DFhw7$population))
