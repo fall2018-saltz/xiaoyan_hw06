@@ -246,22 +246,22 @@
         {
             "ports": [
                 {
-                    "output": "mapColorByMurder",
-                    "type": "png"
-                }
-            ],
-            "source": "colorMapByMurder.R",
-            "target": "colorMapByMurder.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "mapCircleByPop",
                     "type": "png"
                 }
             ],
             "source": "colorMapByMurder.R",
             "target": "mapCirclebyPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapColorByMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "colorMapByMurder.R",
+            "target": "colorMapByMurder.png"
         }
     ],
     "nodes": [
@@ -374,6 +374,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 19:30:05",
+    "updated_at": "2018-10-16 02:16:28",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
