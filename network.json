@@ -263,7 +263,12 @@
             "target": "mapCircleByPop.png"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "input": "DFhw7",
+                    "type": "r_obj"
+                }
+            ],
             "source": "HW7.R",
             "target": "StepD.R"
         }
@@ -382,6 +387,6 @@
             "name": "StepD.R"
         }
     ],
-    "updated_at": "2018-10-16 02:49:41",
+    "updated_at": "2018-10-16 02:50:04",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
