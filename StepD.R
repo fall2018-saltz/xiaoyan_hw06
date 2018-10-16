@@ -2,6 +2,8 @@
 library("ggmap")
 library("ggplot2")
 
+us <- map_data("state")
+
 mapColorByMurder <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +  
                 geom_map(map = us, fill=DFhw7$Murder) + 
                 expand_limits(x = DFhw7$x, y = DFhw7$y) +
