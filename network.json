@@ -256,7 +256,6 @@
             "ports": [
                 {
                     "input": "DFhw7",
-                    "output": "mapColorByMurder",
                     "type": "r_obj"
                 }
             ],
@@ -374,6 +373,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-16 02:20:51",
+    "updated_at": "2018-10-16 02:30:34",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
