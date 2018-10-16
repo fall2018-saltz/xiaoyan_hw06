@@ -19,7 +19,7 @@ mapColorByMurder
 library("RColorBrewer")
 
 mapCircleByPop <- mapColorByMurder + 
-                geom_point(x = DFhw7$x, y = DFhw7$y, color="white",),
+                geom_point(x = DFhw7$x, y = DFhw7$y, color="white",
                 size=DFhw7$population)
 mapCircleByPop
 
