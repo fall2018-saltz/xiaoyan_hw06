@@ -251,6 +251,16 @@
             ],
             "source": "HW7.R",
             "target": "colorMapByMurder.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapCircleByPop",
+                    "type": "png"
+                }
+            ],
+            "source": "colorMapByMurder.R",
+            "target": "mapCircleByPop.png"
         }
     ],
     "nodes": [
@@ -363,6 +373,6 @@
             "name": "mapCircleByPop.png"
         }
     ],
-    "updated_at": "2018-10-16 02:44:02",
+    "updated_at": "2018-10-16 02:44:17",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
