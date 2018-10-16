@@ -1,5 +1,6 @@
 
 library("ggmap")
+library("gglots")
 
 latlon <- geocode("newyork,ny")
 mapCircleByPopNE <- mapColorByMurder + 
