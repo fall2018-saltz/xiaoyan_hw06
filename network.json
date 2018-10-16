@@ -271,6 +271,16 @@
             ],
             "source": "HW7.R",
             "target": "StepD.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapCircleByPopNE",
+                    "type": "png"
+                }
+            ],
+            "source": "StepD.R",
+            "target": "mapCircleByPopNE.png"
         }
     ],
     "nodes": [
@@ -392,6 +402,6 @@
             "name": "mapCircleByPopNE.png"
         }
     ],
-    "updated_at": "2018-10-16 02:59:41",
+    "updated_at": "2018-10-16 03:00:04",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
