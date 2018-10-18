@@ -11,7 +11,7 @@ mapColorByMurder <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +
 mapColorByMurder
 
 latlon <- geocode("newyork,ny")
-mapCircleByPopNE <- mapColorByMurder + 
+mapCircleByPopNE <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) + 
                 geom_point(x = latlon$lon, y = latlon$lat, color="white",
                 aes(size=DFhw7$population))
 mapCircleByPopNE
