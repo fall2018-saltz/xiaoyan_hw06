@@ -255,16 +255,6 @@
         {
             "ports": [
                 {
-                    "input": "DFhw7",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "colorMapByMurder.R",
-            "target": "StepD.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "mapCircleByPop",
                     "type": "png"
                 }
@@ -281,6 +271,17 @@
             ],
             "source": "StepD.R",
             "target": "mapCircleByPopNE.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "DFhw7",
+                    "output": "undefineDFhw7",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "colorMapByMurder.R",
+            "target": "StepD.R"
         }
     ],
     "nodes": [
@@ -402,6 +403,6 @@
             "name": "mapCircleByPopNE.png"
         }
     ],
-    "updated_at": "2018-10-18 04:06:29",
+    "updated_at": "2018-10-18 15:30:15",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
