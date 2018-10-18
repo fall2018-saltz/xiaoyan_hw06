@@ -387,8 +387,11 @@
             "desc": "",
             "name": "StepD.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "mapCircleByPopNE.png"
         }
     ],
-    "updated_at": "2018-10-18 03:44:10",
+    "updated_at": "2018-10-18 03:44:33",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
