@@ -21,4 +21,4 @@ mapCircleByPop <- mapColorByMurder +
                 aes(size=DFhw7$population))
 mapCircleByPop
 
-
+DFhw7
