@@ -396,10 +396,12 @@
             "name": "mapCircleByPopNE.png"
         },
         {
+            "assigned_to": "xzhan147",
             "desc": "",
-            "name": "StepD.R"
+            "name": "StepD.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 03:23:21",
+    "updated_at": "2018-10-18 03:44:01",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
