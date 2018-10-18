@@ -5,7 +5,8 @@ library("ggmap")
 
 us <- map_data("state")
 
-mapCircleByPopNE <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +  
+mapCircleByPopNE <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) 
+mapCircleByPopNE <- mapCircleByPopNE +  
                 geom_map(map = us, aes(color=DFhw7$Murder,
                 fill=DFhw7$Murder)) + 
                 expand_limits(x =us$long, y = us$lat) +
