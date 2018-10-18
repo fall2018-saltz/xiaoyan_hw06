@@ -18,4 +18,5 @@ mapCircleByPop
 
 latlon <- geocode("newyork,ny")
 mapCircleByPopNE <- mapCircleByPop + 
-                    geom_point(x=latlon$lon, y=latlon$lat,color="white",)
+                    geom_point(x=latlon$lon, y=latlon$lat,
+                    color="white", aes(size=DFhw7$population))
