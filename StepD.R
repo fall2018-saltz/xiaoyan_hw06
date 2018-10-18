@@ -17,4 +17,5 @@ mapCircleByPop <- mapColorByMurder +
 mapCircleByPop
 
 latlon <- geocode("newyork,ny")
-mapCircleByPopNE <- mapCircleByPop + geom_point()
+mapCircleByPopNE <- mapCircleByPop + 
+                    geom_point(x=latlon$lon, y=latlon$lat,color="white",)
