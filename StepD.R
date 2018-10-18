@@ -11,8 +11,9 @@ mapCircleByPopNE <- mapCircleByPopNE +
                 fill=DFhw7$Murder)) 
 mapCircleByPopNE <- mapCircleByPopNE + 
                     expand_limits(x =us$long, y = us$lat)
-mapCircleByPopNE <- mapCircleByPopNE + coord_map(xlim=c(-64,-84), ylim=c(30.71,50.71)) +
-                ggtitle("Map for North East in the USA") +
+mapCircleByPopNE <- mapCircleByPopNE + 
+            coord_map(xlim=c(-64,-84), ylim=c(30.71,50.71)) 
+mapCircleByPopNE <-mapCircleByPopNE + ggtitle("Map for North East in the USA") +
                 geom_point(x=DFhw7$x,y=DFhw7$y, color="white", 
                 aes(size=DFhw7$population))
                 
