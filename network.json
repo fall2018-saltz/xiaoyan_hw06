@@ -265,16 +265,6 @@
         {
             "ports": [
                 {
-                    "output": "DFhw7",
-                    "type": "csv"
-                }
-            ],
-            "source": "colorMapByMurder.R",
-            "target": "test.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "DFhw7",
                     "output": "DFhw7",
                     "type": "r_obj"
@@ -412,11 +402,8 @@
         },
         {
             "name": "mapCircleByPopNE.png"
-        },
-        {
-            "name": "test.csv"
         }
     ],
-    "updated_at": "2018-10-18 15:39:56",
+    "updated_at": "2018-10-18 15:40:08",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
