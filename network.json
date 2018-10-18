@@ -282,6 +282,16 @@
             ],
             "source": "colorMapByMurder.R",
             "target": "StepD.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "DFhw7",
+                    "type": "csv"
+                }
+            ],
+            "source": "colorMapByMurder.R",
+            "target": "test.csv"
         }
     ],
     "nodes": [
@@ -406,6 +416,6 @@
             "name": "test.csv"
         }
     ],
-    "updated_at": "2018-10-18 15:31:49",
+    "updated_at": "2018-10-18 15:32:01",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
