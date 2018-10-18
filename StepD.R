@@ -23,5 +23,6 @@ mapCircleByPopNE <- ggplot(DFhw7, aes(map_id = DFhw7$stateName)) +
                 expand_limits(x =us$long, y = us$lat) +
                 coord_map(xlim=c(-64,-84),ylim=(30.71,50.71) +
                 ggtitle("Map for North East in the USA") +
+                geom_point(x=DFhw7$x,y=DFhw7$y, color="white", )
                 
 mapCircleByPopNE
