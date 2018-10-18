@@ -199,17 +199,93 @@
             ],
             "source": "boxplot.R",
             "target": "boxplotMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "censusArrestsFinal",
+                    "output": "censusArrestsFinal",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "HW7.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapColor",
+                    "type": "png"
+                }
+            ],
+            "source": "colorMap.R",
+            "target": "mapColorByArea.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "DFhw7",
+                    "output": "DFhw7",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "HW7.R",
+            "target": "colorMap.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapColorByMurder",
+                    "type": "png"
+                }
+            ],
+            "source": "colorMapByMurder.R",
+            "target": "mapColorByMurder.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "DFhw7",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "HW7.R",
+            "target": "colorMapByMurder.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "DFhw7",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "colorMapByMurder.R",
+            "target": "StepD.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapCircleByPop",
+                    "type": "png"
+                }
+            ],
+            "source": "colorMapByMurder.R",
+            "target": "mapCircleByPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapCircleByPopNE",
+                    "type": "png"
+                }
+            ],
+            "source": "StepD.R",
+            "target": "mapCircleByPopNE.png"
         }
     ],
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
-        },
-        {
-            "assigned_to": "xzhan147",
-            "desc": "",
-            "name": "MergeArrests.R",
-            "task_status": "in progress"
         },
         {
             "assigned_to": "xzhan147",
@@ -282,8 +358,50 @@
             "desc": "",
             "name": "boxplot.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "xzhan147",
+            "desc": "",
+            "name": "HW7.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "xzhan147",
+            "desc": "",
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "mapColorByArea.png"
+        },
+        {
+            "assigned_to": "xzhan147",
+            "desc": "",
+            "name": "colorMap.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "mapColorByMurder.png"
+        },
+        {
+            "assigned_to": "xzhan147",
+            "desc": "",
+            "name": "colorMapByMurder.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "mapCircleByPop.png"
+        },
+        {
+            "assigned_to": "xzhan147",
+            "desc": "",
+            "name": "StepD.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "mapCircleByPopNE.png"
         }
     ],
-    "updated_at": "2018-10-09 19:27:26",
+    "updated_at": "2018-10-18 04:06:29",
     "url": "https://github.com/fall2018-saltz/xiaoyan_hw06"
 }
